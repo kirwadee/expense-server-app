@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "expenses tracker backend api",
+  "main": "server.js",
+  "engines": {
+    "node": "v14.18.2"
+  },
+  "scripts": {
+    "start": "node src/server.js ",
+    "watch": "nodemon src/server.js "
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Meshack Kirwa Chumba",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
